@@ -4,7 +4,6 @@ const CACHE_NAME = 'wangechi-v1';
 const urlsToCache = [
   '/',
   '/index.html',
-  '/Wangechi.html',
   '/manifest.json',
   'https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Playfair+Display:ital,wght@0,700;1,400&display=swap'
 ];
@@ -59,7 +58,7 @@ self.addEventListener('fetch', event => {
       })
       .catch(() => {
         // Offline fallback - return cached version or offline page
-        return caches.match('/Wangechi.html');
+        return caches.match('/index.html');
       })
   );
 });
