@@ -1055,6 +1055,13 @@
     </main>
 
     <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('/sw.js')
+                    .then(reg => console.log('✓ Offline access enabled'))
+                    .catch(err => console.log('✗ Offline setup failed', err));
+            });
+        }
         // 1. Initialize the page state on load
         window.onload = function() {
             // Check if there is a saved section from a previous session
