@@ -195,7 +195,7 @@
             text-align: left;
             border: none;
             border-bottom: 1px solid #eee;
-            font-size: 1em;
+            font-size: 1.15em;
             display: flex;
             justify-content: space-between;
             transition: 0.2s;
@@ -213,7 +213,7 @@
 
         .sub-content {
             padding: 10px 15px;
-            font-size: 0.95em;
+            font-size: 1.15em;
             color: #57606f;
             font-style: italic;
             background: #f9f9f9;
@@ -294,7 +294,7 @@
 
         <div class="category" data-theme="daily">
             <div class="category-title">Daily Rhythms</div>
-            <a class="menu-item" onclick="showContent('daily')"><i>🌅</i> <span>Daily</span></a>
+            <a class="menu-item" onclick="showContent('daily')"><i>🌅</i> <span>Daily Prayers</span></a>
         </div>
 
         <div class="category" data-theme="liturgy">
@@ -305,7 +305,7 @@
         <div class="category" data-theme="devotion">
             <div class="category-title">Devotions</div>
             <a class="menu-item" onclick="showContent('rosary')"><i>📿</i> <span>Holy Rosary</span></a>
-            <a class="menu-item" onclick="showContent('marian')"><i>🌹</i> <span>Marian</span></a>
+            <a class="menu-item" onclick="showContent('marian')"><i>🌹</i> <span>Marian Prayers</span></a>
             <a class="menu-item" onclick="showContent('emergency')"><i>🆘</i> <span>Arrow</span></a>
         </div>
     </nav>
@@ -338,8 +338,12 @@
             </button>
             <div class="accordion-panel">
                 <div class="accordion-content prayer-text">
-                    <p>
-                      <span class="response">Pending</span>   
+                    <p class="prayer-text">
+                      O my Jesus, through the most pure heart of Mary, I offer to you all my prayers, actions, 
+                      joys and sufferings of this day for all the intentions of your divine heart. Amen.<br>
+                      O my Lady and my Mother, I offer myself entirely to you, and in proof of my filial affection 
+                      I concentrate to you this day my eyes, my ears, my tongue, my heart; in a word, my whole self. 
+                      Now that I am entirely yours, keep me and defend me, as your own property and possession   
                     </p>
                     </div>
             </div>
@@ -395,7 +399,7 @@
             </button>
             <div class="accordion-panel">
                 <div class="accordion-content prayer-text">
-                    <p >
+                    <p class="prayer-text">
                         Lord, make me an instrument of your peace.<br>
                         Where there is hatred, let me sow love;<br>
                         where there is injury, pardon;<br>
@@ -418,7 +422,7 @@
             </button>
             <div class="accordion-panel">
                 <div class="accordion-content prayer-text">
-                    <p ><i>Before</i><br>
+                    <p class="prayer-text"><i>Before</i><br>
                         Bless us, O Lord, and these Thy gifts, which we are about to receive from Thy bounty, through Christ our Lord. Amen. <br><br>
                         <i>After</i><br>
                         We give you thanks, Almighty God, for this and all your benefits,who lives and reignes forever; Amen <br>May the souls of the faithful departed, through the mercy of God, rest in peace. Amen.
@@ -431,10 +435,7 @@
             </button>
             <div class="accordion-panel">
                 <div class="accordion-content prayer-text">
-                    <p>
-<<<<<<< HEAD
-                       <span class="response">Pending</span> 
-=======
+                    <p class="prayer-text">
                        <i style="color: #c0392b;">
                         The message and devotion to the Divine Mercy 
                         is based on the writings of Saint Maria Faustina Kowalska, 
@@ -449,21 +450,47 @@
                         Jesus said to Sister Faustina:<br>
                         "Say unceasingly this chaplet that I have taught you. 
                         Whoever will recite it will receive great mercy at the hour of death.
-                        Priests will recommend it to sinners as their last hope. Even the most hardened criminaals"
-                       </i>
+                        Priests will recommend it to sinners as their last hope. Even the most hardened sinner, 
+                        if he were to recite thie Chaplet only once, he would receive gracefrom my infinite mercy... 
+                        I desire that the whole world know my infinite mercy. I desire to grant unimaginable graces 
+                        to those who trust in my mercy."<br>
+                        "Write that when they say this chaplet in the presence of dying, I will stand between the 
+                        father and the dying person not as just judge but as the merciful Savior."
+                       </i></p>
+
                        <h3>Chaplet of The Divine Mercy</h3>
->>>>>>> 645a931 (Updates)
+                       <p class="prayer-text">
+                       <i style="color: #c0392b;">
+                        1. Begin with the Sign of the Cross, one Our Father, One Hail Mary, and the Apostles' Creed.<br>
+                        2. Then in the Our Father beads (the chaplet is prayed on rosary beads) say the following:
+                       </i>
+                       "Eternal Father, I offer you the Body and Blood, soul and Divinity of your dearly beloved son, 
+                       our Lord Jesus Christ, in atonment for our sins and those of the whole world."<br>
+                       <i style="color: #c0392b;">
+                        3. On the ten Hail Mary Beads say the following:
+                       </i><br>
+                       "For the sake of his sorrowful Passion, have mercy on us and on the whole world."<br>
+                       <i style="color: #c0392b;">
+                        (Repeat steps 2 and 3 for all five decades.)<br>
+                        4. Conclude with (three times):
+                       </i><br>
+                       "Holy God, Holy Mighty One, Holy Immortal One, have mercy on us and on the whole world."
                     </p>
                     </div>
             </div>
 
             <button class="accordion-header prayer-text" onclick="toggleAccordion(this)">
-                Examination of conscience<span>▼</span>
+                Examination of conscience (Short)<span>▼</span>
             </button>
             <div class="accordion-panel">
                 <div class="accordion-content prayer-text">
-                    <p>
-                        <span class="response">Pending</span>
+                    <p class="prayer-text">
+                    <i style="color: #c0392b;">
+                        Take a few moments to reflect on each question
+                    </i><br>
+                        1. What did I do well today?<br>
+                        2. What did I not do well today?<br>
+                        3. What will i do better tomorrow?
                     </p>
                     </div>
             </div>
@@ -1098,9 +1125,8 @@
                     <div>Queen of the most Holy Rosary</div> <div class="response">Pray for us.</div>
                     <div>Queen of the family</div> <div class="response">Pray for us.</div>
                     <div>Queen of peace</div> <div class="response">Pray for us.</div>
-                    
-                </div><br><br>
-            </div>
+                </div>
+                </div><br>
 
                 <div class="prayer-text content-block" style="background: #f0f7ff;">
                     <div>
@@ -1158,41 +1184,58 @@
 
         <section id="marian" class="prayer-section">
             <h1 class="section-title">Marian Prayers</h1>
-            <div class="content-block" style="border-top: 8px solid var(--devotion-color);">
-                <h3 class="block-title">The Hail Mary <i>(Ave Maria)</i></h3>
-                <p class="prayer-text">
-                    Hail Mary, full of grace, the Lord is with thee; 
-                    blessed art thou among women, and blessed is the fruit of thy womb, Jesus.<br>
-                    Holy Mary, Mother of God, pray for us sinners, now and at the hour of our death. Amen
-                </p>
+            <div class="content-block" style="border-top: 8px solid var(--devotion-color);">                    
+                    <button class="sub-accordion-header prayer-text" onclick="toggleSubAccordion(this)">
+                        <strong>Hail Mary (Ave Maria)</strong><span>▼</span>
+                    </button>
+                    <div class="sub-accordion-panel">
+                        <p class="prayer-text">
+                        Hail Mary, full of grace, the Lord is with thee; 
+                        blessed art thou among women, and blessed is the fruit of thy womb, Jesus.<br>
+                        Holy Mary, Mother of God, pray for us sinners, now and at the hour of our death. Amen
+                        </p>
+                    </div>
 
-                <h3 class="block-title">The Hail Holy Queen <i>(Salve Regina)</i></h3>
-                <p class="prayer-text">
-                    Hail, Holy Queen, Mother of Mercy, Hail, our life, our sweetness and our hope. To you do we cry, poor banished children of Eve.
-                    To you do we send up our sighs, mourning and weeping in this valley of tears.
-                    Turn then, most gracious advocate, your eyes of mercy toward us, and after this our exile
-                    show unto us the blessed fruit of your womb, Jesus.
-                    O clement, O loving, O sweet Virgin Mary.<br>
-                </p>
+                    <button class="sub-accordion-header prayer-text" onclick="toggleSubAccordion(this)">
+                        <strong>Hail Holy Queen (Salve Regina)</strong> <span>▼</span>
+                    </button>
+                    <div class="sub-accordion-panel">
+                        <p class="prayer-text">
+                        Hail, Holy Queen, Mother of Mercy, Hail, our life, our sweetness and our hope. To you do we cry, poor banished children of Eve.
+                        To you do we send up our sighs, mourning and weeping in this valley of tears.
+                        Turn then, most gracious advocate, your eyes of mercy toward us, and after this our exile
+                        show unto us the blessed fruit of your womb, Jesus.
+                        O clement, O loving, O sweet Virgin Mary.<br>
+                        </p>
+                    </div>
 
-                <h3 class="block-title">The Memorare</h3>
-                <p class="prayer-text">
-                    Remember, O most gracious Virgin Mary, that never was it known that anyone who fled to your protection, 
-                    implored your help, or sought your intercession was left unaided. Inspired by this confidence, I fly unto you, 
-                    O Virgin of virgins, my Mother; to you do I come, before you I stand, sinful and sorrowful. 
-                    O Mother of the Word Incarnate, despise not my petitions, but in your mercy hear and answer me. Amen
-                </p>
+                     <button class="sub-accordion-header prayer-text" onclick="toggleSubAccordion(this)">
+                        <strong>Memorare</strong><span>▼</span>
+                    </button>
+                    <div class="sub-accordion-panel">
+                        <p class="prayer-text">
+                        Remember, O most gracious Virgin Mary, that never was it known that anyone who fled to your protection, 
+                        implored your help, or sought your intercession was left unaided. Inspired by this confidence, I fly unto you, 
+                        O Virgin of virgins, my Mother; to you do I come, before you I stand, sinful and sorrowful. 
+                        O Mother of the Word Incarnate, despise not my petitions, but in your mercy hear and answer me. Amen
+                        </p>
+                    </div>
 
-                <h3 class="block-title">The Magnificat <i>(Canticle of Mary)</i></h3>
-                <p class="prayer-text">
-                    My soul proclaims the greatness of the Lord, my spirit rejoices in God my Savior; <br>
-                    for he has looked with favor on his lowly servant. From this day all generations will call me blessed: <br>
-                    the Almighty has done great things for me, and holy is his name. He has mercy on those who fear him in every generation. <br>
-                    He has shown strength with his arm; he has scattered the proud in their conceit. <br>
-                    He has cast down the mighty from their thrones, and has lifted up the lowly. <br>
-                    He has filled the hungry with good things, and the rich he has sent away empty. <br>
-                    He has helped his servant<br>
-                </p>
+                     <button class="sub-accordion-header prayer-text" onclick="toggleSubAccordion(this)">
+                        <strong>Magnificat (Canticle of Mary)</strong><span>▼</span>
+                    </button>
+                    <div class="sub-accordion-panel">
+                        <p class="prayer-text">
+                        My soul proclaims the greatness of the Lord, my spirit rejoices in God my Savior; <br>
+                        for he has looked with favor on his lowly servant. From this day all generations will call me blessed: <br>
+                        the Almighty has done great things for me, and holy is his name. He has mercy on those who fear him in every generation. <br>
+                        He has shown strength with his arm; he has scattered the proud in their conceit. <br>
+                        He has cast down the mighty from their thrones, and has lifted up the lowly. <br>
+                        He has filled the hungry with good things, and the rich he has sent away empty. <br>
+                        He has helped his servant<br>
+                        </p>
+                    </div>
+                </div>
             </div>
         </section>
 
